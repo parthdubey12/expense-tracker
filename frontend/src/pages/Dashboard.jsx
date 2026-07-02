@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import axios from 'react-router-dom';
+import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Pie, Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from 'chart.js';
